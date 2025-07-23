@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Instagram Non-Followers Checker</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>Instagram Non-Followers Checker</h1>
+
+    <label for="following">Upload <code>following.html</code>:</label>
+    <input type="file" id="following" accept=".html"/>
+
+    <label for="followers">Upload <code>followers_1.html</code>:</label>
+    <input type="file" id="followers" accept=".html"/>
+
+    <button id="checkButton">Check who doesn't follow you back</button>
+
+    <h2>People you follow that don’t follow you back:</h2>
+    <ul id="result"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
