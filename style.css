@@ -13,7 +13,8 @@ body {
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-input[type="file"] {
+input[type="file"],
+input[type="date"] {
   display: block;
   margin: 1em 0;
 }
@@ -44,4 +45,30 @@ ul {
 li {
   padding: 0.3em 0;
   border-bottom: 1px solid #ddd;
+}
+
+#resultTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1em;
+}
+
+#resultTable th,
+#resultTable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#resultTable th {
+  background-color: #f2f2f2;
+  cursor: pointer;
+  text-align: left;
+}
+
+#resultTable th:hover {
+  background-color: #e0e0e0;
+}
+
+#resultTable tr:nth-child(even) {
+  background-color: #fafafa;
 }
